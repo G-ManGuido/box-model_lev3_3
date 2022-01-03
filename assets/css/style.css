@@ -67,7 +67,7 @@ header section:nth-of-type(1){
     margin-top: 0px;
     margin: 0;
     background: url(../img/bild1.jpeg);
-    width: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
