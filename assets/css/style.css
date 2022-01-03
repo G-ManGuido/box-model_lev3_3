@@ -16,8 +16,7 @@ h1{
     font-size: large;
     color: #666;
     margin: 0px;
-    font-family: Cincel;
-    display: flex;
+    font-family: Cincel
     position:fixed !important;
     position:absolut;
     width: 100%;
@@ -51,17 +50,14 @@ h3{
     margin: 3em 0px 4rem 0px;
     font-size: 2rem;
 }
+
 h3 a{
 text-decoration: none;
 color: #000;
 }
+
 h3 a:hover{
     border-bottom: 2px solid #666;
-}
-footer h3:nth-of-type(1){
-font-size: 2rem;
-margin: 20px 0px 20px 0px;
-padding: 0;
 }
 
 header section:nth-of-type(1){
@@ -92,6 +88,7 @@ article div a:hover img{
     border-bottom: 10px solid #666;
     
 }
+
 li{
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -120,6 +117,12 @@ hr{
     margin: 0;
 }
 
+footer h3:nth-of-type(1){
+    font-size: 2rem;
+    margin: 20px 0px 20px 0px;
+    padding: 0;
+}
+
 footer div{
     background-color: #fff;
     width: 100%;
@@ -136,4 +139,3 @@ footer div a img:hover{
     border-radius: 100%;
     transition: all .5s linear;
 }
-
