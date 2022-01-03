@@ -7,21 +7,23 @@
 body{
     background-color: #EFEFEF;
     margin: 0px;
-   
 }
+
 h1{
     text-align: left;
     background: linear-gradient(to bottom, #fff, #DEDEDE);
-    padding: 8px 0px 15px 50px;
-    font-size: large;
+    padding: 14px 18px 15px 50px;
+    font-size: 1rem;
+    display: flex;
     color: #666;
     margin: 0px;
-    font-family: Cincel
+    font-family: Cincel;
     position:fixed !important;
     position:absolut;
     width: 100%;
     border-bottom: 1px solid #ccc;
 }
+
 h1 a{text-decoration: none;
     color: #666;}
 h1 a:hover{
